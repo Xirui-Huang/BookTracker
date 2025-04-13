@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.BookTracker" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">#795548</item>
+        <item name="colorPrimaryDark">#5D4037</item>
+        <item name="colorAccent">#FFC107</item>
+    </style>
+</resources>

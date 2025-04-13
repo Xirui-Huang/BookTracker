@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FAF9F6"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="My Bookshelf"
+        android:textColor="#4A3F35"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="serif"
+        android:layout_marginBottom="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp">
+
+        <EditText
+            android:id="@+id/bookInput"
+            android:hint="Enter title"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/editbox_background"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/addBookButton"
+            android:text="Add"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#4A3F35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:id="@+id/bookListLayout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </ScrollView>
+
+</LinearLayout>

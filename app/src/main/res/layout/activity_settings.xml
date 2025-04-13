@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FAF9F6"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="设置"
+        android:textColor="#4A3F35"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="字体大小"
+        android:textColor="#4A3F35"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:id="@+id/fontSizeGroup"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/fontSmall"
+            android:text="Small"
+            android:textColor="#4A3F35"
+            android:layout_height="1.5dp"
+            android:layout_width="2dp"/>
+
+        <RadioButton
+            android:id="@+id/fontMedium"
+            android:text="Medium"
+            android:textColor="#4A3F35"
+            android:layout_marginStart="16dp"
+            android:layout_height="1.5dp"
+            android:layout_width="2dp"/>
+
+        <RadioButton
+            android:id="@+id/fontLarge"
+            android:text="Large"
+            android:textColor="#4A3F35"
+            android:layout_marginStart="16dp"
+            android:layout_height="1.5dp"
+            android:layout_width="2dp"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/switchAccountButton"
+        android:text="Switch accounts"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4A3F35"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:text="Log out"
+        android:textColor="#4A3F35"
+        android:backgroundTint="#EDEDED"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

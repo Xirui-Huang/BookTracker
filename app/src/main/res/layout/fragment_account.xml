@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FAF9F6"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/avatarImage"
+        android:src="@drawable/default_avatar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/circle_background"
+        android:padding="2dp" />
+
+    <TextView
+        android:id="@+id/usernameText"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4A3F35"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/userIdText"
+        android:textSize="14sp"
+        android:textColor="#777777"
+        android:layout_marginBottom="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:text="Setting"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#4A3F35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

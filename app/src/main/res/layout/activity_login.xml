@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#FAF9F6"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Welcome Back"
+        android:textSize="24sp"
+        android:textColor="#4A3F35"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="serif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/usernameInput"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_marginBottom="24dp" />
+
+
+    <Button
+        android:id="@+id/loginButton"
+        android:text="Login"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:backgroundTint="#4A3F35"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/goToRegisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:layout_marginTop="16dp"
+        android:textColor="#4A3F35"
+        android:backgroundTint="#EDEDED" />
+
+</LinearLayout>
